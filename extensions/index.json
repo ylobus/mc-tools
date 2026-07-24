@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "axis_lock",
+      "name": "Axis Lock",
+      "tagline": "Lock move operations to selected axes in object and edit mode",
+      "version": "2.0.0",
+      "type": "add-on",
+      "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "3D View"
+      ],
+      "archive_url": "./axis_lock-2.0.0.zip",
+      "archive_size": 3037,
+      "archive_hash": "sha256:f62b1bd192765a9012e7b2e21b763c6a78cd69377d301c1d7aff91ed2f388232"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "viewport_axis",
+      "name": "Axis Edge Indicator",
+      "tagline": "Draw in-plane axis direction on the viewport borders",
+      "version": "1.4.0",
+      "type": "add-on",
+      "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "3D View"
+      ],
+      "archive_url": "./viewport_axis-1.4.0.zip",
+      "archive_size": 1529,
+      "archive_hash": "sha256:3352a3319cf420a94701f938606593d99a77771ba47a438b9a9e2960ebfd47ce"
+    }
+  ]
+}
