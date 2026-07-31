@@ -10,12 +10,10 @@ Blender tools from inside Blender, no matter where they are.
 2. Paste the URL:
 
    ```
-   https://<USER>.github.io/mc-tools/extensions/index.json
+   https://ylobus.github.io/mc-tools/extensions/index.json
    ```
 
 3. Enable it, then **Refresh** — the tools appear under *Get Extensions*, ready to install.
-
-> Replace `<USER>` with the GitHub account/org hosting this repo.
 
 ## What's here
 
@@ -24,7 +22,6 @@ mc-tools/
 ├─ .nojekyll                 # disable Jekyll so files are served verbatim
 └─ extensions/
    ├─ index.json             # the repository listing Blender reads
-   ├─ index.html             # simple drag-to-install listing (optional)
    └─ *.zip                  # built extension packages, one per tool/version
 ```
 
@@ -34,7 +31,7 @@ Each tool lives in its own source repo and publishes its built `.zip` here. Afte
 zips change, regenerate `index.json` with Blender's command-line tool:
 
 ```
-blender --command extension server-generate --repo-dir ./extensions --html
+blender --command extension server-generate --repo-dir ./extensions
 ```
 
 `index.json` uses **relative** archive URLs, so the `.zip` files must stay next to it.

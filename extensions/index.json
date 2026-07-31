@@ -4,10 +4,10 @@
   "data": [
     {
       "schema_version": "1.0.0",
-      "id": "axis_lock",
-      "name": "Axis Lock",
-      "tagline": "Lock move operations to selected axes in object and edit mode",
-      "version": "2.0.0",
+      "id": "combiner_setup",
+      "name": "Combiner Setup",
+      "tagline": "Create procedural collection setups with a Combiner modifier",
+      "version": "1.0.0",
       "type": "add-on",
       "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
       "license": [
@@ -15,18 +15,37 @@
       ],
       "blender_version_min": "4.2.0",
       "tags": [
-        "3D View"
+        "Pipeline"
       ],
-      "archive_url": "./axis_lock-2.0.0.zip",
-      "archive_size": 3037,
-      "archive_hash": "sha256:f62b1bd192765a9012e7b2e21b763c6a78cd69377d301c1d7aff91ed2f388232"
+      "archive_url": "./combiner_setup.zip",
+      "archive_size": 15372,
+      "archive_hash": "sha256:335848ded666147f160ef8f8abc1e3b11bcb8139f3c28ffb04cd4d3b1f8c23a8"
     },
     {
       "schema_version": "1.0.0",
-      "id": "viewport_axis",
-      "name": "Axis Edge Indicator",
-      "tagline": "Draw in-plane axis direction on the viewport borders",
-      "version": "1.4.0",
+      "id": "mc_toolbox",
+      "name": "MC Tools",
+      "tagline": "Hub menu for MightyCanvas tools and shared UI actions",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "User Interface"
+      ],
+      "archive_url": "./mc_toolbox.zip",
+      "archive_size": 13269,
+      "archive_hash": "sha256:bb434b0873b09f2d653877edea51b19dade8ae824221105b7a60ca5e6e3799fa"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "viewport_axes",
+      "name": "Viewport Axes",
+      "tagline": "Show world axis directions along the viewport borders",
+      "version": "1.0.0",
       "type": "add-on",
       "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
       "license": [
@@ -36,9 +55,9 @@
       "tags": [
         "3D View"
       ],
-      "archive_url": "./viewport_axis-1.4.0.zip",
-      "archive_size": 1529,
-      "archive_hash": "sha256:3352a3319cf420a94701f938606593d99a77771ba47a438b9a9e2960ebfd47ce"
+      "archive_url": "./viewport_axes.zip",
+      "archive_size": 13669,
+      "archive_hash": "sha256:dd00a2197dc632b3b7cb74cad09c427c78d61e9396b251372f516cd30eb73995"
     }
   ]
 }
