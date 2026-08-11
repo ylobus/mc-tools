@@ -58,8 +58,8 @@
         "Pipeline"
       ],
       "archive_url": "./mesh_analyzer.zip",
-      "archive_size": 64657,
-      "archive_hash": "sha256:2fc9d423e92021d17fc0ff1cd28efe3d9b95e2d96fc2cb5f81107eee3188d0e3"
+      "archive_size": 65119,
+      "archive_hash": "sha256:326b6d1782c7455e52da10e0ba878dadff128b498d5b56cb07d447b3502eac2c"
     },
     {
       "schema_version": "1.0.0",
