@@ -42,6 +42,27 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "mesh_analyzer",
+      "name": "Mesh Analyzer",
+      "tagline": "Analyse game-art meshes: validation checks and density heatmaps",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Yurii Lobus <yurii@mightycanvas.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Mesh",
+        "3D View",
+        "Pipeline"
+      ],
+      "archive_url": "./mesh_analyzer.zip",
+      "archive_size": 64657,
+      "archive_hash": "sha256:2fc9d423e92021d17fc0ff1cd28efe3d9b95e2d96fc2cb5f81107eee3188d0e3"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "viewport_axes",
       "name": "Viewport Axes",
       "tagline": "Show world axis directions along the viewport borders",
